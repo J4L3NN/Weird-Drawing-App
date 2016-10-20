@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6037594B4447276DE42FE75F /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603755D78B289A6B32316F45 /* Buttons.swift */; };
+		60375CF0A0A7156EA7B001F8 /* Pixels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603752C895FEB2C92D6DF62F /* Pixels.swift */; };
+		F730CD1A1D1A160100A25073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730CD191D1A160100A25073 /* AppDelegate.swift */; };
+		F730CD1C1D1A160100A25073 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F730CD1B1D1A160100A25073 /* GameScene.sks */; };
+		F730CD1E1D1A160100A25073 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730CD1D1D1A160100A25073 /* GameScene.swift */; };
+		F730CD201D1A160100A25073 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730CD1F1D1A160100A25073 /* GameViewController.swift */; };
+		F730CD231D1A160100A25073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F730CD211D1A160100A25073 /* Main.storyboard */; };
+		F730CD251D1A160100A25073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F730CD241D1A160100A25073 /* Assets.xcassets */; };
+		F730CD281D1A160100A25073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F730CD261D1A160100A25073 /* LaunchScreen.storyboard */; };
+		F730CD331D1A160100A25073 /* DrawnLevelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730CD321D1A160100A25073 /* DrawnLevelsTests.swift */; };
+		F730CD3E1D1A160100A25073 /* DrawnLevelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730CD3D1D1A160100A25073 /* DrawnLevelsUITests.swift */; };
+		F730CD4C1D1A3C2F00A25073 /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730CD4B1D1A3C2F00A25073 /* PlayScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F730CD2F1D1A160100A25073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F730CD0E1D1A160100A25073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F730CD151D1A160100A25073;
+			remoteInfo = DrawnLevels;
+		};
+		F730CD3A1D1A160100A25073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F730CD0E1D1A160100A25073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F730CD151D1A160100A25073;
+			remoteInfo = DrawnLevels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		603752C895FEB2C92D6DF62F /* Pixels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pixels.swift; path = Assets.xcassets/Pixels.swift; sourceTree = "<group>"; };
+		603755D78B289A6B32316F45 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Buttons.swift; path = Assets.xcassets/Buttons.swift; sourceTree = "<group>"; };
+		F730CD161D1A160100A25073 /* Physics Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physics Drawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F730CD191D1A160100A25073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F730CD1B1D1A160100A25073 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F730CD1D1D1A160100A25073 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F730CD1F1D1A160100A25073 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F730CD221D1A160100A25073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F730CD241D1A160100A25073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F730CD271D1A160100A25073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F730CD291D1A160100A25073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F730CD2E1D1A160100A25073 /* Physics Drawing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics Drawing.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F730CD321D1A160100A25073 /* DrawnLevelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawnLevelsTests.swift; sourceTree = "<group>"; };
+		F730CD341D1A160100A25073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F730CD391D1A160100A25073 /* Physics Drawing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics Drawing.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F730CD3D1D1A160100A25073 /* DrawnLevelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawnLevelsUITests.swift; sourceTree = "<group>"; };
+		F730CD3F1D1A160100A25073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F730CD4B1D1A3C2F00A25073 /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F730CD131D1A160100A25073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F730CD2B1D1A160100A25073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F730CD361D1A160100A25073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F730CD0D1D1A160100A25073 = {
+			isa = PBXGroup;
+			children = (
+				F730CD181D1A160100A25073 /* DrawnLevels */,
+				F730CD311D1A160100A25073 /* DrawnLevelsTests */,
+				F730CD3C1D1A160100A25073 /* DrawnLevelsUITests */,
+				F730CD171D1A160100A25073 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F730CD171D1A160100A25073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F730CD161D1A160100A25073 /* Physics Drawing.app */,
+				F730CD2E1D1A160100A25073 /* Physics Drawing.xctest */,
+				F730CD391D1A160100A25073 /* Physics Drawing.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F730CD181D1A160100A25073 /* DrawnLevels */ = {
+			isa = PBXGroup;
+			children = (
+				F730CD191D1A160100A25073 /* AppDelegate.swift */,
+				F730CD1B1D1A160100A25073 /* GameScene.sks */,
+				F730CD1D1D1A160100A25073 /* GameScene.swift */,
+				F730CD4B1D1A3C2F00A25073 /* PlayScene.swift */,
+				F730CD1F1D1A160100A25073 /* GameViewController.swift */,
+				F730CD211D1A160100A25073 /* Main.storyboard */,
+				F730CD241D1A160100A25073 /* Assets.xcassets */,
+				F730CD261D1A160100A25073 /* LaunchScreen.storyboard */,
+				F730CD291D1A160100A25073 /* Info.plist */,
+				603752C895FEB2C92D6DF62F /* Pixels.swift */,
+				603755D78B289A6B32316F45 /* Buttons.swift */,
+			);
+			path = DrawnLevels;
+			sourceTree = "<group>";
+		};
+		F730CD311D1A160100A25073 /* DrawnLevelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F730CD321D1A160100A25073 /* DrawnLevelsTests.swift */,
+				F730CD341D1A160100A25073 /* Info.plist */,
+			);
+			path = DrawnLevelsTests;
+			sourceTree = "<group>";
+		};
+		F730CD3C1D1A160100A25073 /* DrawnLevelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F730CD3D1D1A160100A25073 /* DrawnLevelsUITests.swift */,
+				F730CD3F1D1A160100A25073 /* Info.plist */,
+			);
+			path = DrawnLevelsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F730CD151D1A160100A25073 /* Physics Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F730CD421D1A160100A25073 /* Build configuration list for PBXNativeTarget "Physics Drawing" */;
+			buildPhases = (
+				F730CD121D1A160100A25073 /* Sources */,
+				F730CD131D1A160100A25073 /* Frameworks */,
+				F730CD141D1A160100A25073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Physics Drawing";
+			productName = DrawnLevels;
+			productReference = F730CD161D1A160100A25073 /* Physics Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F730CD2D1D1A160100A25073 /* Physics DrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F730CD451D1A160100A25073 /* Build configuration list for PBXNativeTarget "Physics DrawingTests" */;
+			buildPhases = (
+				F730CD2A1D1A160100A25073 /* Sources */,
+				F730CD2B1D1A160100A25073 /* Frameworks */,
+				F730CD2C1D1A160100A25073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F730CD301D1A160100A25073 /* PBXTargetDependency */,
+			);
+			name = "Physics DrawingTests";
+			productName = DrawnLevelsTests;
+			productReference = F730CD2E1D1A160100A25073 /* Physics Drawing.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F730CD381D1A160100A25073 /* Physics DrawingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F730CD481D1A160100A25073 /* Build configuration list for PBXNativeTarget "Physics DrawingUITests" */;
+			buildPhases = (
+				F730CD351D1A160100A25073 /* Sources */,
+				F730CD361D1A160100A25073 /* Frameworks */,
+				F730CD371D1A160100A25073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F730CD3B1D1A160100A25073 /* PBXTargetDependency */,
+			);
+			name = "Physics DrawingUITests";
+			productName = DrawnLevelsUITests;
+			productReference = F730CD391D1A160100A25073 /* Physics Drawing.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F730CD0E1D1A160100A25073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jalen Moore";
+				TargetAttributes = {
+					F730CD151D1A160100A25073 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6H9MGDLTK5;
+					};
+					F730CD2D1D1A160100A25073 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F730CD151D1A160100A25073;
+					};
+					F730CD381D1A160100A25073 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F730CD151D1A160100A25073;
+					};
+				};
+			};
+			buildConfigurationList = F730CD111D1A160100A25073 /* Build configuration list for PBXProject "Physics Drawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F730CD0D1D1A160100A25073;
+			productRefGroup = F730CD171D1A160100A25073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F730CD151D1A160100A25073 /* Physics Drawing */,
+				F730CD2D1D1A160100A25073 /* Physics DrawingTests */,
+				F730CD381D1A160100A25073 /* Physics DrawingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F730CD141D1A160100A25073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F730CD1C1D1A160100A25073 /* GameScene.sks in Resources */,
+				F730CD281D1A160100A25073 /* LaunchScreen.storyboard in Resources */,
+				F730CD251D1A160100A25073 /* Assets.xcassets in Resources */,
+				F730CD231D1A160100A25073 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F730CD2C1D1A160100A25073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F730CD371D1A160100A25073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F730CD121D1A160100A25073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F730CD1E1D1A160100A25073 /* GameScene.swift in Sources */,
+				F730CD201D1A160100A25073 /* GameViewController.swift in Sources */,
+				F730CD4C1D1A3C2F00A25073 /* PlayScene.swift in Sources */,
+				F730CD1A1D1A160100A25073 /* AppDelegate.swift in Sources */,
+				60375CF0A0A7156EA7B001F8 /* Pixels.swift in Sources */,
+				6037594B4447276DE42FE75F /* Buttons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F730CD2A1D1A160100A25073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F730CD331D1A160100A25073 /* DrawnLevelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F730CD351D1A160100A25073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F730CD3E1D1A160100A25073 /* DrawnLevelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F730CD301D1A160100A25073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F730CD151D1A160100A25073 /* Physics Drawing */;
+			targetProxy = F730CD2F1D1A160100A25073 /* PBXContainerItemProxy */;
+		};
+		F730CD3B1D1A160100A25073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F730CD151D1A160100A25073 /* Physics Drawing */;
+			targetProxy = F730CD3A1D1A160100A25073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F730CD211D1A160100A25073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F730CD221D1A160100A25073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F730CD261D1A160100A25073 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F730CD271D1A160100A25073 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F730CD401D1A160100A25073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F730CD411D1A160100A25073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F730CD431D1A160100A25073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DrawnLevels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jalen-Moore.DrawnLevels";
+				PRODUCT_NAME = "Physics Drawing";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F730CD441D1A160100A25073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DrawnLevels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jalen-Moore.DrawnLevels";
+				PRODUCT_NAME = "Physics Drawing";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F730CD461D1A160100A25073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DrawnLevelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jalen-Moore.DrawnLevelsTests";
+				PRODUCT_NAME = "Physics Drawing";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics Drawing.app/Physics Drawing";
+			};
+			name = Debug;
+		};
+		F730CD471D1A160100A25073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawnLevelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jalen-Moore.DrawnLevelsTests";
+				PRODUCT_NAME = "Physics Drawing";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics Drawing.app/Physics Drawing";
+			};
+			name = Release;
+		};
+		F730CD491D1A160100A25073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DrawnLevelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jalen-Moore.DrawnLevelsUITests";
+				PRODUCT_NAME = "Physics Drawing";
+				TEST_TARGET_NAME = DrawnLevels;
+			};
+			name = Debug;
+		};
+		F730CD4A1D1A160100A25073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawnLevelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jalen-Moore.DrawnLevelsUITests";
+				PRODUCT_NAME = "Physics Drawing";
+				TEST_TARGET_NAME = DrawnLevels;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F730CD111D1A160100A25073 /* Build configuration list for PBXProject "Physics Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F730CD401D1A160100A25073 /* Debug */,
+				F730CD411D1A160100A25073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F730CD421D1A160100A25073 /* Build configuration list for PBXNativeTarget "Physics Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F730CD431D1A160100A25073 /* Debug */,
+				F730CD441D1A160100A25073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F730CD451D1A160100A25073 /* Build configuration list for PBXNativeTarget "Physics DrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F730CD461D1A160100A25073 /* Debug */,
+				F730CD471D1A160100A25073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F730CD481D1A160100A25073 /* Build configuration list for PBXNativeTarget "Physics DrawingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F730CD491D1A160100A25073 /* Debug */,
+				F730CD4A1D1A160100A25073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F730CD0E1D1A160100A25073 /* Project object */;
+}
